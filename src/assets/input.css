@@ -1,0 +1,37 @@
+a.link {
+	color: #0077aa;
+	text-decoration: underline;
+	text-decoration-color: lightgray;
+	text-underline-offset: 0.5rem;
+
+	&:hover {
+		color: #0077aa !important;
+		text-decoration-color: #0077aa;
+	}
+
+	&::after {
+		content: " →";
+	}
+}
+a.link.passive {
+	color: gray;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+
+	cursor: pointer;
+
+	&::before {
+		content: "[ ";
+	}
+
+	&::after {
+		content: " ]";
+	}
+
+	&:hover {
+		background-color: var(--color-primary);
+	}
+}

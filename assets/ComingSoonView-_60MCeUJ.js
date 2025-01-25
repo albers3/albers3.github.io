@@ -1,0 +1,1 @@
+import{_ as i,c as n,F as s,r as t,a as e,t as a,o as r}from"./index-n0IANBGH.js";const l={},_={class:"wrapper"};function u(o,d){return r(),n("div",_,[(r(),n(s,null,t(10,c=>e("br")),64)),e("h1",null,a(o.$t("coming-soon")),1),e("h2",null,a(o.$t("coming-soon-description")),1),(r(),n(s,null,t(10,c=>e("br")),64))])}const p=i(l,[["render",u]]);export{p as default};

@@ -3,7 +3,7 @@ import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n();
 
-function changeLanguage(event) {
+function changeLanguage(event: any) {
 	const lang = event.target.value;
 	locale.value = lang;
 	localStorage.setItem("selectedLanguage", lang);

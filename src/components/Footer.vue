@@ -1,38 +1,90 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<div class="wrapper">
-	<footer>
-		<div>
-			<a target="_blank" href="https://github.com/albers3/opencae" class="link passive">GitHub</a>
-			<br>
-			<br>
-			<div>{{ $t("footer-credits") }}</div>
-		</div>
-		<div>
-			<div class="footer-headline">{{ $t("footer-column-1") }}</div>
-			<div><a class="link passive">{{ $t("coming-soon") }}</a></div>
-		</div>
-		<div>
-			<div class="footer-headline">{{ $t("footer-column-2") }}</div>
-			<div><a class="link passive">{{ $t("coming-soon") }}</a></div>
-		</div>
-		<div>
-			<div class="footer-headline">{{ $t("footer-column-3") }}</div>
-			<div><a class="link passive">{{ $t("coming-soon") }}</a></div>
-		</div>
-		<div>
-			<div class="footer-headline">{{ $t("footer-column-4") }}</div>
-			<div><a target="_blank" href="https://github.com/albers3/opencae" class="link passive">{{ $t("footer-library-documentation") }}</a></div>
-			<div><a target="_blank" href="https://github.com/albers3/opencae" class="link passive">{{ $t("footer-library-source") }}</a></div>
-			<div><a target="_blank" href="https://github.com/albers3/opencae/issues" class="link passive">{{ $t("footer-library-issues") }}</a></div>
-			<div><a target="_blank" href="https://github.com/albers3/opencae-viewer" class="link passive">{{ $t("footer-viewer-documentation") }}</a></div>
-			<div><a target="_blank" href="https://github.com/albers3/opencae-viewer" class="link passive">{{ $t("footer-viewer-source") }}</a></div>
-			<div><a target="_blank" href="https://github.com/albers3/opencae-viewer/issues" class="link passive">{{ $t("footer-viewer-issues") }}</a></div>
-		</div>
-	</footer>
-</div>
+	<div class="wrapper">
+		<footer>
+			<div>
+				<a
+					target="_blank"
+					href="https://github.com/albers3/opencae"
+					class="link passive"
+					>GitHub</a
+				>
+				<br />
+				<br />
+				<div>{{ $t("footer-credits") }}</div>
+			</div>
+			<div>
+				<div class="footer-headline">{{ $t("footer-column-1") }}</div>
+				<div>
+					<a class="link passive">{{ $t("coming-soon") }}</a>
+				</div>
+			</div>
+			<div>
+				<div class="footer-headline">{{ $t("footer-column-2") }}</div>
+				<div>
+					<a class="link passive">{{ $t("coming-soon") }}</a>
+				</div>
+			</div>
+			<div>
+				<div class="footer-headline">{{ $t("footer-column-3") }}</div>
+				<div>
+					<a class="link passive">{{ $t("coming-soon") }}</a>
+				</div>
+			</div>
+			<div>
+				<div class="footer-headline">{{ $t("footer-column-4") }}</div>
+				<div>
+					<a
+						target="_blank"
+						href="https://github.com/albers3/opencae"
+						class="link passive"
+						>{{ $t("footer-library-documentation") }}</a
+					>
+				</div>
+				<div>
+					<a
+						target="_blank"
+						href="https://github.com/albers3/opencae"
+						class="link passive"
+						>{{ $t("footer-library-source") }}</a
+					>
+				</div>
+				<div>
+					<a
+						target="_blank"
+						href="https://github.com/albers3/opencae/issues"
+						class="link passive"
+						>{{ $t("footer-library-issues") }}</a
+					>
+				</div>
+				<div>
+					<a
+						target="_blank"
+						href="https://github.com/albers3/opencae-viewer"
+						class="link passive"
+						>{{ $t("footer-viewer-documentation") }}</a
+					>
+				</div>
+				<div>
+					<a
+						target="_blank"
+						href="https://github.com/albers3/opencae-viewer"
+						class="link passive"
+						>{{ $t("footer-viewer-source") }}</a
+					>
+				</div>
+				<div>
+					<a
+						target="_blank"
+						href="https://github.com/albers3/opencae-viewer/issues"
+						class="link passive"
+						>{{ $t("footer-viewer-issues") }}</a
+					>
+				</div>
+			</div>
+		</footer>
+	</div>
 </template>
 
 <style scoped>
@@ -63,7 +115,7 @@ footer {
 	div.footer-headline {
 		font-size: 0.75rem;
 		color: var(--color-text);
-	
+
 		margin-bottom: 1rem;
 	}
 }

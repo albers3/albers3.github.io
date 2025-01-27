@@ -1,20 +1,27 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<div class="banner">
-	<div class="wrapper">
-		<h5>{{ $t("banner") }} <a class="link inversed" target="_blank" href="https://github.com/albers3/opencae">GitHub</a></h5>
+	<div class="banner">
+		<div class="wrapper">
+			<h5>
+				{{ $t("banner") }}
+				<a
+					class="link inversed"
+					target="_blank"
+					href="https://github.com/albers3/opencae"
+					>GitHub</a
+				>
+			</h5>
+		</div>
 	</div>
-</div>
 </template>
 
 <style scoped>
 div.banner {
-        padding: 1rem 0;
-        width: 100%;
-        background-color: var(--color-background-dark);
-        color: white;
+	padding: 1rem 0;
+	width: 100%;
+	background-color: var(--color-background-dark);
+	color: white;
 }
 
 a.inversed {

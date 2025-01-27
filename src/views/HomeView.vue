@@ -1,6 +1,4 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
 	<div class="wrapper">
@@ -9,9 +7,7 @@
 				<h1 class="header">{{ $t("welcome") }}</h1>
 			</section>
 			<section class="preview">
-				<img
-					src="../assets/flow.png"
-					alt="preview">
+				<img src="../assets/flow.png" alt="preview" />
 			</section>
 			<section class="description">
 				<h3>{{ $t("description") }}</h3>
@@ -43,7 +39,11 @@
 				</div>
 				<div class="section-article-body">
 					<p>{{ $t("library-description") }}</p>
-					<div><a class="link" href="/library">{{ $t("find-out-more") }}</a></div>
+					<div>
+						<a class="link" href="/library">{{
+							$t("find-out-more")
+						}}</a>
+					</div>
 				</div>
 			</section>
 			<section class="toolchain">
@@ -56,7 +56,11 @@
 				</div>
 				<div class="section-article-body">
 					<p>{{ $t("viewer-description") }}</p>
-					<div><a class="link" href="/viewer">{{$t("find-out-more") }}</a></div>
+					<div>
+						<a class="link" href="/viewer">{{
+							$t("find-out-more")
+						}}</a>
+					</div>
 				</div>
 			</section>
 			<section class="goal">
@@ -92,7 +96,11 @@
 				</div>
 				<div class="section-article-body">
 					<p>{{ $t("principle-description-1") }}</p>
-					<div><a class="link" href="/coming-soon">{{ $t("find-out-more") }}</a></div>
+					<div>
+						<a class="link" href="/coming-soon">{{
+							$t("find-out-more")
+						}}</a>
+					</div>
 				</div>
 			</section>
 			<section class="principle">
@@ -101,7 +109,11 @@
 				</div>
 				<div class="section-article-body">
 					<p>{{ $t("principle-description-2") }}</p>
-					<div><a class="link" href="/coming-soon">{{ $t("find-out-more") }}</a></div>
+					<div>
+						<a class="link" href="/coming-soon">{{
+							$t("find-out-more")
+						}}</a>
+					</div>
 				</div>
 			</section>
 			<section class="principle">
@@ -110,7 +122,11 @@
 				</div>
 				<div class="section-article-body">
 					<p>{{ $t("principle-description-3") }}</p>
-					<div><a class="link" href="/coming-soon">{{ $t("find-out-more") }}</a></div>
+					<div>
+						<a class="link" href="/coming-soon">{{
+							$t("find-out-more")
+						}}</a>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -130,7 +146,7 @@ section.preview {
 
 	background-color: var(--color-primary);
 	width: 100%;
-	aspect-ratio: calc(5/3);
+	aspect-ratio: calc(5 / 3);
 
 	display: flex;
 	justify-items: center;

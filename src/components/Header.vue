@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
+import { useI18n } from "vue-i18n";
 
 const { locale } = useI18n();
 
@@ -16,18 +16,20 @@ function created() {
 	}
 }
 created();
-
 </script>
 
 <template>
 	<div class="wrapper header">
 		<header>
-			<a href="/"><img src="../assets/logo.svg" height="32"></a>
+			<a href="/"><img src="../assets/logo.svg" height="32" /></a>
 			<select v-model="$i18n.locale" @change="changeLanguage($event)">
 				<option
 					v-for="locale in $i18n.availableLocales"
 					:key="`locale-${locale}`"
-					:value="locale">{{ locale }}</option>
+					:value="locale"
+				>
+					{{ locale }}
+				</option>
 			</select>
 		</header>
 	</div>
@@ -50,7 +52,7 @@ header {
 }
 
 select {
-	margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 
 	cursor: pointer;
 	background-color: transparent;
